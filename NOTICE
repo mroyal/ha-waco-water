@@ -1,0 +1,8 @@
+ha-waco-water
+Copyright 2026 Michael Royal
+
+This product includes software developed in the wbyoung/watersmart project
+(https://github.com/wbyoung/watersmart), licensed under the Apache License,
+Version 2.0. The long-term-statistics accumulation ("fold"/"anchor") logic in
+custom_components/waco_water/statistics.py and its use in coordinator.py are
+adapted from that project.

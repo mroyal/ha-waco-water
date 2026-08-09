@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "City of Waco Water",
+        "description": "Sign in with your mywacoaccount.com credentials. Your account number is shown at the top right of the portal.",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "account_number": "Account number",
+          "base_url": "Portal URL"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The portal rejected these credentials.",
+      "no_meter": "No water smart meter was found on this account.",
+      "cannot_connect": "Could not connect to the portal.",
+      "unknown": "Unexpected error — check the Home Assistant log."
+    },
+    "abort": {
+      "already_configured": "This meter is already configured."
+    }
+  }
+}
